@@ -25,7 +25,7 @@ API_HASH = os.environ.get("API_HASH", "5e7701953107a273724b07f2beaf8f17") #Your 
 
 CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002282783745")) #Your db channel Id
 OWNER = os.environ.get("OWNER", "dvl_naruto_06") # Owner username without @
-OWNER_ID = int(os.environ.get("OWNER_ID", "6964203412 1886258592")) # Owner id
+OWNER_ID = int(os.environ.get("OWNER_ID", "6964203412")) # Owner id
 #--------------------------------------------
 PORT = os.environ.get("PORT", "8001")
 #--------------------------------------------
@@ -36,7 +36,7 @@ FSUB_LINK_EXPIRY = int(os.getenv("FSUB_LINK_EXPIRY", "0"))  # 0 means no expiry
 BAN_SUPPORT = os.environ.get("BAN_SUPPORT", "https://t.me/disscus_moviehub4u")
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "200"))
 #--------------------------------------------
-START_PIC = os.environ.get("START_PIC", "https://graph.org/file/4a0395b0be30ed38ef9d1-82c0bd1dc134db114b.jpg https://graph.org/file/b46f4188164da9b0cf033-78432b72f7cf82862b.jpg https://graph.org/file/4888a084d2ef1e45e5746-04e5686b3662a768dc.jpg")
+START_PIC = os.environ.get("START_PIC", "https://graph.org/file/4a0395b0be30ed38ef9d1-82c0bd1dc134db114b.jpg")
 FORCE_PIC = os.environ.get("FORCE_PIC", "https://graph.org/file/c4d48362a3fa7d5e01b95-d832f6d21f122ec001.jpg")
 #--------------------------------------------
 
